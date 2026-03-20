@@ -1,10 +1,11 @@
 
 import './App.css'
-import Parent from './parentToChild/Parent'
 
+import Parent from "./childToParent/Parent.jsx"
 function App() {
   return (
     <>
+      {/* <Parent/> */}
       <Parent/>
     </>
   )
